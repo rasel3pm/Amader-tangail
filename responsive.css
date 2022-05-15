@@ -1,0 +1,16 @@
+@media only screen and (max-width:600px) {
+    .card-area {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-item {
+        width: 350px;
+        height: 350px;
+    }
+    .card-image img {
+        width: 348px;
+        height: 168px;
+    }
+}
